@@ -19,6 +19,7 @@
     --esmeralda: #009900;
     --rubi: #f82c2c;
     --diamante: #ffffcc;
+    --ametista: #8a0eea;
     }
 
 
@@ -32,6 +33,11 @@ html,body {
     font-size: 62.5%;
   }
 
+
+
+.nota{
+    color:var(--diamante)
+}
 
   
   header{
@@ -99,7 +105,6 @@ section article{
     max-width: 360px;
     padding: 1.2rem;
     margin: 1.8rem auto;
-    border-radius: 1.6rem;
     justify-content: center;
     align-items: center;
 }
@@ -109,6 +114,14 @@ section article{
 }
 .agata{
     border: .111rem solid var(--agata);
+}
+
+.ametista{
+    border: .001rem solid var(--ametista);
+}
+
+.ametista h3{
+    color:var(--ametista);
 }
 
 .zafiro h3{
@@ -194,8 +207,8 @@ a{
 }
 
 .solicitar{
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--zafiro);
+    color: var(--diamante);
     font-size: 1.6rem;
     font-weight: 600;
     padding: 1.2rem;
